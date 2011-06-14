@@ -6,7 +6,7 @@ call pathogen#runtime_append_all_bundles()
 " Change <Leader> to comma
 let mapleader=","
 
-set noncompatible
+set nocompatible
 
 " Default color scheme
 color lucius
