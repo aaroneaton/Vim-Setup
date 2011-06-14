@@ -119,5 +119,7 @@ nnoremap <leader>w <C-w>v<C-w>l
 let NERDTreeIgnore=['\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
 
+" Command-T configuration
+let g:CommandTMaxHeight=20
 
 """" End Plugin Settings """"
