@@ -31,3 +31,6 @@
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/vim-scripts/snipMate.git
+[submodule "bundle/buffergator"]
+	path = bundle/buffergator
+	url = https://github.com/jeetsukumaran/vim-buffergator.git
