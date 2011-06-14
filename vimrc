@@ -115,6 +115,9 @@ nnoremap <leader>w <C-w>v<C-w>l
 
 """" Begin Plugin Settings """"
 
+" NERDTree configuration
+let NERDTreeIgnore=['\.rbc$', '\~$']
+map <Leader>n :NERDTreeToggle<CR>
 
 
 """" End Plugin Settings """"
