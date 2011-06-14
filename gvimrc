@@ -18,6 +18,7 @@ if has("gui_macvim")
   " Adjust windows to the same size
   map <Leader>= <C-w>=
   imap <Leader>= <Esc> <C-w>=
+
 endif
 
 " Don't beep

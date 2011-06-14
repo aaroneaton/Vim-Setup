@@ -6,6 +6,9 @@ call pathogen#runtime_append_all_bundles()
 " Change <Leader> to comma
 let mapleader=","
 
+" Make font bigger
+set gfn=Menlo\ Regular:h12
+
 set nocompatible
 
 " Default color scheme
@@ -37,7 +40,7 @@ set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,test/fixtures/*,vendor/gems/*
 
 " Status bar
 set laststatus=2
-" set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 " Remember last location in file
 if has("autocmd")
