@@ -13,3 +13,6 @@
 [submodule "bundle/NERDCommenter"]
 	path = bundle/NERDCommenter
 	url = https://github.com/vim-scripts/The-NERD-Commenter.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/vim-scripts/SuperTab.git
