@@ -46,3 +46,6 @@
 	path = bundle/buffergator
 	url = https://github.com/jeetsukumaran/vim-buffergator.git
   ignore = dirty
+[submodule "bundle/indent-guides"]
+	path = bundle/indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
