@@ -12,6 +12,9 @@ if has("gui_macvim")
   " Command-Return for Fullscreen
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 
+  " Command-/ to toggle comments
+  map <D-/> <plug>NERDCommenterToggle<CR>
+  
   " Adjust windows to the same size
   map <Leader>= <C-w>=
   imap <Leader>= <Esc> <C-w>=
