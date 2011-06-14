@@ -10,3 +10,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/vim-scripts/surround.vim.git
+[submodule "bundle/NERDCommenter"]
+	path = bundle/NERDCommenter
+	url = https://github.com/vim-scripts/The-NERD-Commenter.git
