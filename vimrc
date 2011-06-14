@@ -70,7 +70,7 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 " Auto-change the working directory to the file I'm working on
-autocmd BufEnter * lct %:p:h
+autocmd BufEnter * lcd %:p:h
 
 """" Begin Key Remapping """"
 
