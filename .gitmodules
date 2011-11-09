@@ -49,9 +49,12 @@
 [submodule "bundle/indent-guides"]
 	path = bundle/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+  ignore = dirty
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = https://github.com/vim-scripts/Markdown-syntax.git
+  ignore = dirty
 [submodule "bundle/taskpaper"]
 	path = bundle/taskpaper
 	url = https://github.com/vim-scripts/taskpaper.vim.git
+  ignore = dirty
