@@ -52,3 +52,6 @@
 [submodule "bundle/markdown"]
 	path = bundle/markdown
 	url = https://github.com/vim-scripts/Markdown-syntax.git
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
+	url = https://github.com/vim-scripts/taskpaper.vim.git
