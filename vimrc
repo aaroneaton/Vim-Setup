@@ -121,6 +121,14 @@ nmap <silent> <Leader>m :silent noh<CR>
 
 """" End Key Remapping """"
 
+"""" Begin Syntax stuff """"
+
+" Set all .txt files to use .mkd syntax highlighting
+au! BufNewFile,BufRead *.txt set filetype=mkd
+au BufNewFile,BufRead *.txt set ai formatoptions=tcroqn2 comments=n:$gt
+
+"""" End Syntax stuff""""
+
 """" Begin Plugin Settings """"
 
 " NERDTree configuration
@@ -132,5 +140,15 @@ let g:CommandTMaxHeight=20
 
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
+
+" Taskpaper customizations
+nmap <leader>D a<C-R>=strftime("<%Y-%m-%d %H:%M> ")<CR>
+imap <leader>D <C-R>=strftime("<%Y-%m-%d %H:%M>")<CR>
+
+nmap <leader>d a<C-R>=strftime("%Y/%m/%d")<CR>
+imap <leader>d <C-R>=strftime("%Y/%m/%d")<CR>
+
+nmap <leader>ni gg$<CR>
+
 
 """" End Plugin Settings """"
