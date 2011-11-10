@@ -64,3 +64,18 @@
 [submodule "tlib"]
 	path = tlib
 	url = https://github.com/vim-scripts/tlib.git
+[submodule "genutils"]
+	path = genutils
+	url = https://github.com/vim-scripts/genutils.git
+[submodule "multvals.vim"]
+	path = multvals.vim
+	url = https://github.com/vim-scripts/multvals.vim.git
+[submodule "bundle/multvals"]
+	path = bundle/multvals
+	url = https://github.com/vim-scripts/multvals.vim.git
+[submodule "bundle/genutils"]
+	path = bundle/genutils
+	url = https://github.com/vim-scripts/genutils.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = https://github.com/vim-scripts/tlib.git
