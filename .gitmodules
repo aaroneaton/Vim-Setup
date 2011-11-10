@@ -58,3 +58,6 @@
 	path = bundle/taskpaper
 	url = https://github.com/vim-scripts/taskpaper.vim.git
   ignore = dirty
+[submodule "bundle/viki"]
+	path = bundle/viki
+	url = https://github.com/vim-scripts/VikiDeplate.git
