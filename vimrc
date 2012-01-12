@@ -150,5 +150,8 @@ imap <leader>d <C-R>=strftime("%Y/%m/%d")<CR>
 
 nmap <leader>ni gg$<CR>
 
+" Set viki filetype
+autocmd BufEnter * if &filetype == "" | setlocal ft=viki | endif
+
 
 """" End Plugin Settings """"

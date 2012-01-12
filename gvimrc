@@ -156,6 +156,7 @@ function Edit(file)
   endif
 
   execute "e " . fnameescape(a:file)
+endfunction
 
 " Define the NERDTree-aware aliases
 call s:DefineCommand("cd", "ChangeDirectory")
