@@ -61,21 +61,32 @@
 [submodule "bundle/viki"]
 	path = bundle/viki
 	url = https://github.com/vim-scripts/VikiDeplate.git
+  ignore = dirty
 [submodule "tlib"]
 	path = tlib
 	url = https://github.com/vim-scripts/tlib.git
+  ignore = dirty
 [submodule "genutils"]
 	path = genutils
 	url = https://github.com/vim-scripts/genutils.git
+  ignore = dirty
 [submodule "multvals.vim"]
 	path = multvals.vim
 	url = https://github.com/vim-scripts/multvals.vim.git
+  ignore = dirty
 [submodule "bundle/multvals"]
 	path = bundle/multvals
 	url = https://github.com/vim-scripts/multvals.vim.git
+  ignore = dirty
 [submodule "bundle/genutils"]
 	path = bundle/genutils
 	url = https://github.com/vim-scripts/genutils.git
+  ignore = dirty
 [submodule "bundle/tlib"]
 	path = bundle/tlib
 	url = https://github.com/vim-scripts/tlib.git
+  ignore = dirty
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vim-scripts/vimwiki.git
+  ignore = dirty
