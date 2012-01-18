@@ -164,7 +164,7 @@ nmap <leader>ni gg$<CR>
 
 " VimWiki configuration
 "" Change default index location
-let g:vimwiki_list = [{'path': '~/Documents/Notes/', 'ext': '.txt', 'diary_rel_path': ''}]
+let g:vimwiki_list = [{'path': '~/Documents/Notes/', 'ext': '.txt', 'diary_rel_path': '', 'auto_export': 1}]
 let g:vimwiki_browsers = ['/Applications/Google\ Chrome.app']
 let g:vimwiki_global_ext = 0
 let g:vimwiki_badsyms = ' '
