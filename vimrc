@@ -1,7 +1,7 @@
 " Required lines for Pathogen, must stay at top
 filetype off
-call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 " Change <Leader> to comma
 let mapleader=","
@@ -29,6 +29,18 @@ set softtabstop=2
 set expandtab
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
+
+" Wrapped line navigation
+vmap <D-j> gj
+vmap <D-k> gk
+vmap <D-4> g$
+vmap <D-6> g^
+vmap <D-0> g^
+nmap <D-j> gj
+nmap <D-k> gk
+nmap <D-4> g$
+nmap <D-6> g^
+nmap <D-0> g^
 
 " Searching
 set hlsearch
@@ -150,8 +162,15 @@ imap <leader>d <C-R>=strftime("%Y/%m/%d")<CR>
 
 nmap <leader>ni gg$<CR>
 
-" Set viki filetype
-autocmd BufEnter * if &filetype == "" | setlocal ft=viki | endif
+" VimWiki configuration
+"" Change default index location
+let g:vimwiki_list = [{'path': '~/Documents/Notes/', 'ext': '.txt', 'diary_rel_path': ''}]
+let g:vimwiki_browsers = ['/Applications/Google\ Chrome.app']
+let g:vimwiki_global_ext = 0
+let g:vimwiki_badsyms = ' '
+"" Insert docs location
+nmap <leader>L a[[file:///Users/aaron/Documents/Notes/docs/
+imap <leader>L [[file:///Users/aaron/Documents/Notes/docs/
 
 
 """" End Plugin Settings """"
