@@ -1,7 +1,7 @@
 # Channeleaton's Vim Setup
 
-## Plugins used
-* Align.vim
+## Installed Plugins
+* Align
 * AutoClose
 * Buffergator
 * Command-T
@@ -18,3 +18,39 @@
 * Tlib
 * VimWiki
 * ZoomWin
+
+## Quick Plugin Help
+### Align
+See `:h align`
+
+### AutoClose
+
+### Buffergator
+
+### Command-T
+
+### Fugitive
+
+### Genutils
+
+### Gist
+
+### Markdown
+
+### Multvals
+
+### SnipMate
+
+### SuperTab
+
+### NERDCommenter
+
+### NERDTree
+
+### Tlib
+
+### VimWiki
+
+### Vundle
+
+### ZoomWin
