@@ -1,7 +1,11 @@
 " Required lines for Pathogen, must stay at top
+set nocompatible
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+" Vundle setup
+set rtp+=~/.vim/vundle.git/
+call vundle#rc()
+"" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
 
 " Change <Leader> to comma
 let mapleader=","
@@ -9,7 +13,6 @@ let mapleader=","
 " Make font bigger
 set gfn=Menlo\ Regular:h12
 
-set nocompatible
 
 " Default color scheme
 color lucius
