@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 " My Bundles
 Bundle 'Align.vim'
 Bundle 'Buffergator'
+Bundle 'Gist.vim'
 
 " Change <Leader> to comma
 let mapleader=","
