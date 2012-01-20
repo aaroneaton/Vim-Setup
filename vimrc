@@ -217,6 +217,7 @@ imap <leader>t <C-R>=strftime("=== %H:%M ===")<CR><CR>
 " Fugitive configuration
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gc :Gcommit<CR>
+nmap <leader>gp :Git push<CR>
 
 " NERDTree configuration
 let NERDTreeIgnore=['\.rbc$', '\~$']
