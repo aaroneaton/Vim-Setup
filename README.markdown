@@ -19,6 +19,20 @@
 * [VimWiki](https://github.com/vim-scripts/VimWiki) - Have your very own wiki inside Vim.
 * [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in and out of windows
 
+## Basic Customizations
+
+* Changed `<leader>` to `,`
+* Turned on linenumbers, ruler, and syntax highlighting
+* Made it easy to navigate wrapped lines using `<D-j>`, `<D-k>` and other movements.
+* Included Fugitive on the status line
+* Automatically change the working directory to the current buffer
+* Added shortcuts to change windows like `<c-j>` and `<c-k>`
+* Added shortcut to open .vimrc `<leader>v` and reload .vimrc `<leader>V`
+* Re-mapped `;` to `:`. Fewer keystrokes FTW!
+* `jj` now escapes to normal mode
+* `<leader>n` toggles NERDTree
+* Added Date/Time insertion shortcuts. Makes using the VimWiki diary easy to do work logs.
+
 ## Quick Plugin Help
 ### Align
 See `:h align`
@@ -34,6 +48,7 @@ Open the Buffergator window by pressing `<leader>b`.
 Buffers can be previewed in a new tab or window.
 
 With the Buffergator window open, use the following commands:
+
 * `h,j,k,l` are used as movement keys
 * `42<CR>` will open buffer number 42 in the previous window
 * `go` to open the selected buffer but keep the focus on Buffergator
