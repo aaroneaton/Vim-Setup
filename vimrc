@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 
 " My Bundles
 Bundle 'Align.vim'
+Bundle 'AutoClose'
 Bundle 'Buffergator'
 Bundle 'Command-T'
 Bundle 'fugitive.vim'
@@ -23,7 +24,6 @@ Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
 Bundle 'tlib'
 Bundle 'vimwiki'
-
 
 " Change <Leader> to comma
 let mapleader=","
