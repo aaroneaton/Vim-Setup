@@ -10,7 +10,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 "" My Bundles
-Bundle 'Align.vim'
+Bundle 'Align'
 Bundle 'AutoClose'
 Bundle 'Buffergator'
 Bundle 'wincent/Command-T'
