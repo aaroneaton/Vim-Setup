@@ -29,11 +29,40 @@ Bundle 'tlib'
 Bundle 'vimwiki'
 Bundle 'ZoomWin'
 
+" --------------------------------------
+" Platform Specific Configuration
+" --------------------------------------
+
+if has('win32') || has('win64')
+  " Windows
+  source $VIMRUNTIME/mswin.vim
+  set guifont=Consolas:h12:cANSI
+  set guioptions-=T
+  set guioptions-=m
+
+  " Set height and width on Windows
+  set lines=60
+  set columns=120
+
+  " Windows has a nasty habit of launching gvim in the wrong working directory
+  cd ~
+elseif has ('gui_macvim')
+  " MacVim
+  set guifont=Menlo\ Regular:h12
+
+  " Hide toolbar in MacVim
+  if has('gui_running')
+    set guioptions=egmrt
+  endif
+
+  " Use option (alt) as meta key
+  set macmeta
+endif
+
+
 " Change <Leader> to comma
 let mapleader=","
 
-" Make font bigger
-set gfn=Menlo\ Regular:h12
 
 
 " Default color scheme
