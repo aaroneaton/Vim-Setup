@@ -12,8 +12,10 @@ Bundle 'gmarik/vundle'
 " My Bundles
 Bundle 'Align.vim'
 Bundle 'Buffergator'
+Bundle 'Command-T'
 Bundle 'Gist.vim'
 Bundle 'snipMate'
+Bundle 'The-NERD-Commenter'
 Bundle 'tlib'
 
 " Change <Leader> to comma
