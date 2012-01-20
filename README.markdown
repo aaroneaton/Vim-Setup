@@ -1,23 +1,23 @@
 # Channeleaton's Vim Setup
 
 ## Installed Plugins
-* [Align] - Easily align text
-* [AutoClose] - Automatically create matching closing symbols. Saves a ton of typing.
-* [Buffergator] - Visual buffer managment
-* [Command-T] - Open files and buffers with lightning quick speed!
+* [Align](https://github.com/vim-scripts/Align) - Easily align text
+* [AutoClose](https://github.com/vim-scripts/AutoClose) - Automatically create matching closing symbols. Saves a ton of typing.
+* [Buffergator](https://github.com/vim-scripts/Buffergator) - Visual buffer managment
+* [Command-T](https://github.com/vim-scripts/Command-T) - Open files and buffers with lightning quick speed!
 * [Fugitive](https://github.com/tpope/vim-fugitive) - Exceptional Git intigration for Vim
-* [Genutils] - Generally useful utilities
+* [Genutils](https://github.com/vim-scripts/genutils) - Generally useful utilities
 * [Gist](https://github.com/vim-scripts/Gist.vim) - Create and edit Gists right in Vim
 * [Markdown](https://github.com/hallison/vim-markdown) - Syntax highlighting for Markdown
-* [Multvals] - Dependencies
+* [Multvals](https://github.com/vim-scripts/multvals.vim) - Dependencies
 * [snipMate](https://github.com/garbas/vim-snipmate) - Save snippets for any filetype
 * [SuperTab](https://github.com/ervandew/supertab) - Insert mode Tab completion!
-* [Surround]- Surround your text in love...or brackets, quotation marks, etc.
+* [Surround](https://github.com/vim-scripts/surround.vim) - Surround your text in love...or brackets, quotation marks, etc.
 * [NERDCommenter](https://github.com/scrooloose/nerdcommenter)- Comment your code like a pro.
 * [NERDTree](https://github.com/scrooloose/nerdtree)- Visual folder/file navigation
 * [tlib](https://github.com/tomtom/tlib_vim) - Required for SnipMate. Provides other utility functions.
-* [VimWiki]- Have your very own wiki inside Vim.
-* [ZoomWin]- Zoom in and out of windows
+* [VimWiki](https://github.com/vim-scripts/VimWiki) - Have your very own wiki inside Vim.
+* [ZoomWin](https://github.com/vim-scripts/ZoomWin) - Zoom in and out of windows
 
 ## Quick Plugin Help
 ### Align
