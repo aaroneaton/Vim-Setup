@@ -9,11 +9,10 @@ call vundle#rc()
 "" Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
-" My Bundles
+"" My Bundles
 Bundle 'Align.vim'
 Bundle 'AutoClose'
 Bundle 'Buffergator'
-Bundle 'Command-T'
 Bundle 'fugitive.vim'
 Bundle 'genutils'
 Bundle 'Gist.vim'
