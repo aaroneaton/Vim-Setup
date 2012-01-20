@@ -17,6 +17,7 @@ Bundle 'Gist.vim'
 Bundle 'snipMate'
 Bundle 'SuperTab'
 Bundle 'The-NERD-Commenter'
+Bundle 'The-NERD-tree'
 Bundle 'tlib'
 
 " Change <Leader> to comma
