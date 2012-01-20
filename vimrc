@@ -7,6 +7,9 @@ call vundle#rc()
 "" Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
+" My Bundles
+Bundle 'Align.vim'
+
 " Change <Leader> to comma
 let mapleader=","
 
