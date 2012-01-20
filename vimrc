@@ -153,18 +153,24 @@ let g:CommandTMaxHeight=20
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
 
-" Taskpaper customizations
-nmap <leader>D a<C-R>=strftime("<%Y-%m-%d %H:%M> ")<CR>
-imap <leader>D <C-R>=strftime("<%Y-%m-%d %H:%M>")<CR>
+" Current Date/Time insertion
+"" Date & Time
+nmap <leader>D a<C-R>=strftime("=== %Y-%m-%d %H:%M ===")<CR><CR>
+imap <leader>D <C-R>=strftime("=== %Y-%m-%d %H:%M ===")<CR><CR>
 
-nmap <leader>d a<C-R>=strftime("%Y/%m/%d")<CR>
-imap <leader>d <C-R>=strftime("%Y/%m/%d")<CR>
+"" Date only
+nmap <leader>d a<C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
+imap <leader>d <C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
+
+"" Time only
+nmap <leader>t a<C-R>=strftime("=== %H:%M ===")<CR><CR>
+imap <leader>t <C-R>=strftime("=== %H:%M ===")<CR><CR>
 
 nmap <leader>ni gg$<CR>
 
 " VimWiki configuration
 "" Change default index location
-let g:vimwiki_list = [{'path': '~/Documents/Notes/', 'ext': '.txt', 'diary_rel_path': '', 'auto_export': 1}]
+let g:vimwiki_list = [{'path': '~/Documents/Notes/', 'ext': '.txt', 'template_path': '~/Documents/Notes_html/templates/', 'template_default': 'default', 'template_ext': '.tpl', 'diary_rel_path': '', 'auto_export': 1}]
 let g:vimwiki_browsers = ['/Applications/Google\ Chrome.app']
 let g:vimwiki_global_ext = 0
 let g:vimwiki_badsyms = ' '
