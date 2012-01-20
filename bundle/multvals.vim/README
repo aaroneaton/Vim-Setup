@@ -1,0 +1,55 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=171
+
+The new version requires Vim 6.3.
+
+This is an array library useful for script developers.
+
+I started off from the lightWeightArray.vim script as a basis and created this
+more complete script to call it an array. You can now manipulate the Vim's
+multi-valued variables or create your own using this script. This makes it easy
+for you to support variables having multiple values and familiar for the users
+of your script.
+
+See file header for function prototypes.
+
+- An array is nothing but a string of multiple values separated by a
+  pattern.  The simplest example being Vim's multi-value variables such as
+  tags. You can use the MvAddElement() function to create an array.
+  However, there is nothing special about this function, you can as well
+  make up the string by simply concatinating elements with the chosen
+  pattern as a separator.
+- The separator can be any regular expression (which means that if you
+  want to use regex metacharacters in a non-regex pattern, then you need
+  to protect the metacharacters with backslashes). However, if a regular
+  expression is used as a separtor, you need to pass in a second separator,
+  which is a plain string that guarantees to match the separator regular
+  expression, as an additional argument (which was not the case with
+  earlier versions). When the array needs to be modified (which is
+  internally done by some of the reader functions also) this sample
+  separator is used to preserve the integrity of the array.
+- If you for example want to go over the words in a sentence, then an easy
+  way would be to treat the sentence as an array with '\s\+' as a
+  separator pattern. Be sure not to have zero-width expressions in the
+  pattern as these would otherwise confuse the plugin.
+- Suggested usage to go over the elements is to use the iterater functions
+  as shows in the below example
+  Ex Usage:
+    " The below pattern avoids protected comma's from getting treated as
+    "   separators.
+    call MvIterCreate(&tags, '\\\@<!\(\\\\\)*\zs,', 'Tags', ',')
+    while MvIterHasNext('Tags')
+      call input('Next element: ' . MvIterNext('Tags'))
+    endwhile
+    call MvIterDestroy('Tags')
+                                                                            
+ALMOST ALL OPERATIONS TAKE THE ARRAY AND THE SEPARATOR AS THE FIRST TWO
+  ARGUMENTS.
+All element-indexes start from 0 (like in C++ or Java).
+All string-indexes start from 0 (as it is for Vim built-in functions).
+
+
+
+Please let me know of any bugs and problems that you face.
+
+
+Search_key_words: array arrays multvals sort multiple values multivals Hari Krishna Dara
