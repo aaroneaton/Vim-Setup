@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 Bundle 'Align.vim'
 Bundle 'Buffergator'
 Bundle 'Gist.vim'
+Bundle 'snipMate'
 
 " Change <Leader> to comma
 let mapleader=","
