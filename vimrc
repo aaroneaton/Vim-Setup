@@ -1,9 +1,11 @@
-" Required lines for Pathogen, must stay at top
+" Required lines for Vundle, must stay at top
 set nocompatible
 filetype off
+
 " Vundle setup
 set rtp+=~/.vim/vundle.git/
 call vundle#rc()
+
 "" Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
