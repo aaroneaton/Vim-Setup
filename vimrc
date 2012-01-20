@@ -14,6 +14,7 @@ Bundle 'Align.vim'
 Bundle 'Buffergator'
 Bundle 'Gist.vim'
 Bundle 'snipMate'
+Bundle 'tlib'
 
 " Change <Leader> to comma
 let mapleader=","
