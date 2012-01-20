@@ -35,6 +35,7 @@
 * `<leader>n` toggles NERDTree
 * Added Date/Time insertion shortcuts. Makes using the VimWiki diary easy to do work logs.
 * `<Leader><Leader>` triggers `:ZoomWin`
+* `:Gstatus` and `:Gcommit` have been remapped to `<Leader>gs` and `<Leader>gc` respectively
 
 ## Quick Plugin Help
 ### Buffergator

@@ -169,15 +169,8 @@ au BufNewFile,BufRead *.txt set ai formatoptions=tcroqn2 comments=n:$gt
 
 """" Begin Plugin Settings """"
 
-" NERDTree configuration
-let NERDTreeIgnore=['\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
-
 " Command-T configuration
 let g:CommandTMaxHeight=20
-
-" ZoomWin configuration
-map <Leader><Leader> :ZoomWin<CR>
 
 " Current Date/Time insertion
 "" Date & Time
@@ -192,7 +185,13 @@ imap <leader>d <C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
 nmap <leader>t a<C-R>=strftime("=== %H:%M ===")<CR><CR>
 imap <leader>t <C-R>=strftime("=== %H:%M ===")<CR><CR>
 
-nmap <leader>ni gg$<CR>
+" Fugitive configuration
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gc :Gcommit<CR>
+
+" NERDTree configuration
+let NERDTreeIgnore=['\.rbc$', '\~$']
+map <Leader>n :NERDTreeToggle<CR>
 
 " VimWiki configuration
 "" Change default index location
@@ -203,6 +202,9 @@ let g:vimwiki_badsyms = ' '
 "" Insert docs location
 nmap <leader>L a[[file:///Users/aaron/Documents/Notes/docs/
 imap <leader>L [[file:///Users/aaron/Documents/Notes/docs/
+
+" ZoomWin configuration
+map <Leader><Leader> :ZoomWin<CR>
 
 
 """" End Plugin Settings """"
