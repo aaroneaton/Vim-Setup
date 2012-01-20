@@ -15,6 +15,7 @@ Bundle 'Buffergator'
 Bundle 'Command-T'
 Bundle 'Gist.vim'
 Bundle 'snipMate'
+Bundle 'SuperTab'
 Bundle 'The-NERD-Commenter'
 Bundle 'tlib'
 
