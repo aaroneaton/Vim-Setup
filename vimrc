@@ -22,6 +22,8 @@ Bundle 'surround.vim'
 Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
 Bundle 'tlib'
+Bundle 'vimwiki'
+
 
 " Change <Leader> to comma
 let mapleader=","
