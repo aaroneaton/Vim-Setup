@@ -211,13 +211,12 @@ nmap <leader>d a<C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
 imap <leader>d <C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
 
 "" Time only
-nmap <leader>t a<C-R>=strftime("=== %H:%M ===")<CR><CR>
-imap <leader>t <C-R>=strftime("=== %H:%M ===")<CR><CR>
+nmap <leader>tt a<C-R>=strftime("=== %H:%M ===")<CR><CR>
+imap <leader>tt <C-R>=strftime("=== %H:%M ===")<CR><CR>
 
 " Fugitive configuration
 nmap <leader>gs :Gstatus<CR>
 nmap <leader>gc :Gcommit<CR>
-nmap <leader>gp :Git push<CR>
 
 " NERDTree configuration
 let NERDTreeIgnore=['\.rbc$', '\~$']
