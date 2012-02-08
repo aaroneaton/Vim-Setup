@@ -14,6 +14,7 @@ Bundle 'Align'
 Bundle 'AutoClose'
 Bundle 'Buffergator'
 Bundle 'wincent/Command-T'
+Bundle 'ctrlp.vim'
 Bundle 'fugitive.vim'
 Bundle 'genutils'
 Bundle 'Gist.vim'
@@ -27,12 +28,12 @@ Bundle 'The-NERD-Commenter'
 Bundle 'The-NERD-tree'
 Bundle 'tlib'
 Bundle 'vimwiki'
+Bundle 'ZenCoding.vim'
 Bundle 'ZoomWin'
 
 " --------------------------------------
 " Platform Specific Configuration
 " --------------------------------------
-
 if has('win32') || has('win64')
   " Windows
   source $VIMRUNTIME/mswin.vim
@@ -142,7 +143,7 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 " Auto-change the working directory to the file I'm working on
-autocmd BufEnter * lcd %:p:h
+"autocmd BufEnter * lcd %:p:h
 
 """" Begin Key Remapping """"
 
