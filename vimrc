@@ -198,8 +198,9 @@ au BufNewFile,BufRead *.txt set ai formatoptions=tcroqn2 comments=n:$gt
 
 """" Begin Plugin Settings """"
 
-" Command-T configuration
-let g:CommandTMaxHeight=20
+" CtrlP Configuration
+nmap <D-t> :CtrlP<CR>
+imap <D-t> :CtrlP<CR>
 
 " Current Date/Time insertion
 "" Date & Time
