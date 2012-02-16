@@ -21,6 +21,7 @@ Bundle 'Markdown'
 Bundle 'multvals.vim'
 Bundle 'snipMate'
 Bundle 'snipmate-snippets'
+Bundle 'Solarized'
 Bundle 'SuperTab'
 Bundle 'surround.vim'
 Bundle 'The-NERD-Commenter'
@@ -66,7 +67,7 @@ let mapleader=","
 
 
 " Default color scheme
-color lucius
+color solarized
 
 set number
 set ruler
