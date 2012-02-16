@@ -21,7 +21,7 @@ Bundle 'Markdown'
 Bundle 'multvals.vim'
 Bundle 'snipMate'
 Bundle 'snipmate-snippets'
-Bundle 'Solarized'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'SuperTab'
 Bundle 'surround.vim'
 Bundle 'The-NERD-Commenter'
@@ -68,6 +68,8 @@ let mapleader=","
 
 " Default color scheme
 color solarized
+set background=dark
+let g:solarized_contrast=low
 
 set number
 set ruler
