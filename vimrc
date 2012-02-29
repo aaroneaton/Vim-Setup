@@ -69,7 +69,6 @@ let mapleader=","
 " Default color scheme
 color solarized
 set background=dark
-let g:solarized_contrast=low
 
 set number
 set ruler
@@ -215,8 +214,8 @@ nmap <leader>d a<C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
 imap <leader>d <C-R>=strftime("=== %Y/%m/%d ===")<CR><CR>
 
 "" Time only
-nmap <leader>tt a<C-R>=strftime("=== %H:%M ===")<CR><CR>
-imap <leader>tt <C-R>=strftime("=== %H:%M ===")<CR><CR>
+nmap <leader>tn a<C-R>=strftime("=== %H:%M ===")<CR><CR>
+imap <leader>tn <C-R>=strftime("=== %H:%M ===")<CR><CR>
 
 " Fugitive configuration
 nmap <leader>gs :Gstatus<CR>
